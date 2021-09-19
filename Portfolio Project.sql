@@ -110,7 +110,7 @@ Join [Portfolio Project]..CovidVaccination as vac
 	and dea.date = vac.date
 where dea.continent is not null
 
-Select *, (PeopleVaccinatedbyDate/Population)*100 as VacPer
+Select *, (PeopleVaccinatedbyDate/Population) as VacPer
 From #PercentPeopleVaccinated
 
 ---------------------------------- Exporting Data -------------------------------
